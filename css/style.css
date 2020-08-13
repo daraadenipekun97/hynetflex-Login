@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face{
+    font-family:MTNBrighterSans-Regular; 
+    src:url(../fonts/MTNBrighterSans-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h1, h2, h3, h4, h5, h6, p, ::placeholder{
+    font-family: MTNBrighterSans-Regular;
+}
+#headerdiv{
+    width:100%;
+    height:60px;
+    background-color: #ffcc00;
+   
+}
+#wrapper{
+    width:500px;
+    height:40px;
+    margin-left:200px;
+   padding-top:10px;
+}
+#logo{
+    width:40px;
+    height:40px;
+    float:left;
+   
+}
+#logo img{
+    width:100%;
+}
+#logotext{
+    width:50px;
+    float:left;
+    margin-left: 10px;
+
+}
+#logotext h3{
+    padding-top:10px;
+}
+#section2div{
+    height:500px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/picture1.jpg);
+}
+#section2div h3{
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    padding:20px;
+}
+#logintextdiv{
+    /* width:350px; */
+    height: 100px;
+    background-color: #ffcc00;
+    border-bottom-left-radius:100%;
+    border-bottom-right-radius:100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#logintextdiv h3{
+color:black;
+}
+#formwrapper{
+    width:250px;
+    height:300px;
+    background-color:white;
+    margin-top:50px;
+    margin-left:220px;
+    float:left;
+    border-radius:30px;
+    text-align:center;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+}
+input{
+   width:200px;
+   height:30px;
+   margin-top:50px;
+   margin-bottom:5px;
+   padding-left:10px;
+   border:2px solid #ffcc00;
+   border-radius: 20px;
+   
+}
+button{
+    width:200px;
+    height:30px;
+    margin-top:10px;
+    text-align:center;
+    background-color: #ffcc00;
+    border-radius:20px;
+    border:solid 2px #ffcc00;
+}
+#sectioncont{
+    display:inline-block;
+}
+#welcome{
+    float:left;
+    font-size:30px;
+    text-align:center;
+  
+   margin-left:300px;
+   margin-top:150px;
+   color:white;
+}
+#footer{
+    background-color: rgb(202, 202, 202);
+    height:60px;
+    text-align:center;
+    padding-top:15px;
+}
